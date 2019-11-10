@@ -31,9 +31,15 @@ p {
   width: 100%;
   background: #222;
   min-height: 30px;
-  padding: 0.5em;
+  padding: 1em;
+  opacity: 75%;
   position: fixed;
   text-align: center;
+  transition: opacity 1s;
+}
+.main-nav:hover{
+  opacity: 100%;
+  transition: all 1s;
 }
 .nav {
   display: flex;
@@ -83,6 +89,7 @@ header .profile-image {
 }
 header .profile-image:hover {
   transform: scale(1.1) rotate(360deg);
+  transition: all 0.5s;
 }
 .tag {
   background-color: #efefef;
@@ -109,10 +116,12 @@ header .profile-image:hover {
   border-bottom: 4px solid #222;
   border-top: 4px solid #222;
   border-radius: 6px;
-  transition: margin .5s ease-out;
+  transition: margin 0.5s ease-out;
 }
 .card:hover {
-  border-color: #999999;
+  border-top: 8px solid #e9e9e9;
+  border bottom: 8px solid #e9e9e9;
+  transition: all 0.5s;
 }
 
 .card-image {
