@@ -113,14 +113,13 @@ header .profile-image:hover {
   max-width: 500px;
   text-align: left;
   background: #fff;
-  border-bottom: 4px solid #222;
-  border-top: 4px solid #222;
-  border-radius: 6px;
+  border-bottom: 8px solid #222;
+  border-top: 8px solid #222;
+  border-radius: 10px;
   transition: margin 0.5s ease-out;
 }
 .card:hover {
-  border-top: 8px solid #e9e9e9;
-  border bottom: 8px solid #e9e9e9;
+  border-color: #e9e9e9;
   transition: all 0.5s;
 }
 
